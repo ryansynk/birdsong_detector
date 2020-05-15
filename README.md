@@ -1,5 +1,5 @@
 # Species Identification from Birdsong
-This repository contains code for the final project from CMSC498L. Our group set out to train a neural network to identify the species of bird given an audio file of its song. The group consisted of Conner Gorman, Jacob Grant, Kyle Reese, and Ryan Synk. In this repository we provide our code for data preprocessing, data augmentation, network training and network testing.
+This repository contains code for the final project from CMSC498L at UMD. Our group set out to train a neural network to identify the species of bird given an audio file of its song. The group consisted of Conner Gorman, Jacob Grant, Kyle Reese, and Ryan Synk. In this repository we provide our code for data preprocessing, data augmentation, network training and network testing.
 
 ## How we got the data
 
