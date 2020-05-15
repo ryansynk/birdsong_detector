@@ -78,12 +78,11 @@ fetch_data <- function(speciesName){
 # data directories.
 working_directory <- "D:/Document-HDD/UMD/Senior 2/498/"
 
-#"Parus major", "Phylloscopus collybita", "Baeolophus bicolor", "Melospiza melodia", "Cardinalis cardinalis", "Hirundo rustica", "Zenaida macroura",
-#"Spinus tristis", "Icterus galbula", "Sturnella magna", "Thryothorus ludovicianus", "Passer domesticus", "Poecile atricapillus", 
-#"Turdus migratorius", "Cyanistes caeruleus", "Loxia curvirostra", "Passer montanus", "Sylvia atricapilla", "Sylvia communis"
 
 # loop through all of the species, fetch the data, then convert it all to WAV
-for(name in c("Zenaida macroura")){
+for(name in c("Parus major", "Phylloscopus collybita", "Baeolophus bicolor", "Melospiza melodia", "Cardinalis cardinalis", "Hirundo rustica", "Zenaida macroura", 
+              "Spinus tristis", "Icterus galbula", "Sturnella magna", "Thryothorus ludovicianus", "Passer domesticus", "Poecile atricapillus", 
+              "Turdus migratorius", "Cyanistes caeruleus", "Loxia curvirostra", "Passer montanus", "Sylvia atricapilla", "Sylvia communis")){
   setwd(working_directory)
   fetch_data(name)
   setwd(working_directory)
