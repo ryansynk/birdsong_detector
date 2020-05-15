@@ -7,4 +7,4 @@ To download the data, save the files “all_samples.csv” and “fetch_and_conv
 
 You will need to edit the R script to set the current working directory to the directory containing the script and CSV (line 79 of the script). Then run the R script. The download may take several hours or more, and take up several dozen GB, as there are over 8,000 MP3 files to download and convert to WAV. 
 
-After downloading, you will need to use “Create_MFCC_Feature_Vectors.ipynb” to convert the WAV files to feature vectors, then combine them into tensors. Open the notebook and edit the “DATA_DIR” line to point to the directory the WAV files are saved in. Then run the Python script. This may take several hours.
+After downloading, you will need to use “Create_MFCC_Feature_Vectors.ipynb” to convert the WAV files to feature vectors, then combine them into tensors. Make sure the MFCC.py file is in your current directory. Open the notebook and edit the “DATA_DIR” line to point to the directory the WAV files are saved in. Then run the Python script. This may take several hours.
